@@ -19,7 +19,7 @@ body {
   padding: 20px 0;
 }
 .container {
-  background-color: white;
+  background-color: #ffffffb3;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   width: 80%;
