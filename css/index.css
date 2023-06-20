@@ -55,6 +55,7 @@ body {
   border: 2px solid #cb1f1f;
 }
 .card-detail {
+  text-align: left;
   margin: 5px;
   padding: 5px;
   border-right: 2px solid black;
