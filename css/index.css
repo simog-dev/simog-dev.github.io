@@ -3,11 +3,14 @@ body {
   margin: 0;
   padding: 0;
 }
-
+/* html{
+  filter: invert(1);
+}  */
 body {
   font-family: "Roboto Mono", monospace;
   width: 100%;
   min-height: 100vh;
+  background-color: white;
 }
 
 .main-container {
@@ -27,6 +30,18 @@ body {
   padding: 10px;
   /* border: 1px solid; */
   text-align: justify;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mode-icon{
+  font-size: 30px;
+  cursor: pointer;
+}
+.icon-active{
+  color: #b99a0c;
 }
 .block {
   margin-bottom: 10px;
