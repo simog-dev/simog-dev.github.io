@@ -17,5 +17,5 @@ dayButton.addEventListener('click', (event) => {
   event.target.classList.add('icon-active');
   nightButton.classList.remove('icon-active');
   bulb.style.transition = 'all 1s ease-in-out'; // Aggiungi una transizione per un movimento più fluido
-  bulb.style.top = '-400px'; // Sposta l'elemento bulb verso l'alto di 100px
+  bulb.style.top = '-500px'; // Sposta l'elemento bulb verso l'alto di 100px
 });
