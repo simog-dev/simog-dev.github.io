@@ -24,6 +24,7 @@ body {
 }
 .container {
   background-color: #ffffff69;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   width: 80%;
