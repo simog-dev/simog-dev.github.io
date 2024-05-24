@@ -102,3 +102,9 @@
 .level-container{
   font-size: 1.3em;
 }
+
+@media (max-width: 600px) {
+  .main-game-container {
+    display: none;
+  }
+}
