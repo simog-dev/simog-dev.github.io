@@ -21,6 +21,14 @@
   /*background: linear-gradient(to right, #1f4037, #99f2c8);*/
   border-radius: 2px;
 }
+.player-names{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.player-names > p{
+  margin:0;
+}
 #start-pause-button {
   padding: 10px 20px;
   width: 500px;
